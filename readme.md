@@ -3,4 +3,4 @@
 This is a repository of code samples I tried while reading through the book.
 
 ---
-Florin Onciu
+Florin Cosmin Onciu
