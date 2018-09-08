@@ -4,7 +4,8 @@
   "description": "holds all packages used in this examples so I won't need to install packages globally",
   "main": "index.js",
   "scripts": {
-    "try-hexy": "./node_modules/.bin/hexy --width 12 ./chapter2/1-ls.js"
+    "try-hexy": "./node_modules/.bin/hexy --width 12 ./chapter2/1-ls.js",
+    "start-3": "node ./3.http-client-requests/wget.js http://example.com"
   },
   "author": "florin",
   "license": "ISC",

@@ -8,6 +8,7 @@ const logger = require('morgan');
 const indexRouter = require('./routes/index');
 const fibonacciRouter = require('./routes/fibonacci')
 const fibonacciAsyncRouter = require('./routes/fibonacci-async')
+const fibonacciRestRouter = require('./routes/fibonacci-rest')
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/fibonacci', fibonacciRouter);
 app.use('/fibonacci-async', fibonacciAsyncRouter);
+app.use('/fibonacci-rest', fibonacciRestRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
