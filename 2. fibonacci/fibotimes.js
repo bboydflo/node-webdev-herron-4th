@@ -7,12 +7,6 @@ const util = require('util')
   console.log(`${now} Fibonacci for ${num} = ${math.fibonacciLoop(num)}`)
 } */
 
-/* for (var num=0; num<800; num++) {
-  let now = new Date().toISOString();
-  // console.log(`${now} Fibonacci for ${num} = ${math.fibonacci(num)}`)
-  console.log(`${now} Fibonacci for ${num} = ${math.fibonacciLoop(num)}`)
-} */
-
 for (var num=0; num<80; num++) {
   // console.log(`${now} Fibonacci for ${num} = ${math.fibonacci(num)}`)
   ((n) => {
