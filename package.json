@@ -1,0 +1,14 @@
+{
+  "name": "web-dev-herron",
+  "version": "0.0.1",
+  "description": "holds all packages used in this examples so I won't need to install packages globally",
+  "main": "index.js",
+  "scripts": {
+    "try-hexy": "./node_modules/.bin/hexy --width 12 ./chapter2/1-ls.js"
+  },
+  "author": "florin",
+  "license": "ISC",
+  "dependencies": {
+    "hexy": "^0.2.11"
+  }
+}
